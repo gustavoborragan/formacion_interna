@@ -1,10 +1,6 @@
-# Preamble
-
-This project is intended to provide a simple tool for creating Prefapp international training courses.
-
 # USE
 
->Image build or Image pull
+## Image build or Image pull
 
 ```bash
 docker build -t curso:base .
@@ -14,7 +10,7 @@ docker build -t curso:base .
 docker pull gustavoesteban/curso:base
 ```
 
->Run instance
+## Run instance
 
 ```bash
 cp ./docs <PATH_PROJECT>/docs
@@ -27,21 +23,8 @@ docker run -d \
           gustavoesteban/curso:base
 ```
 
-# Implementation
+## Implementation
 
-> Markdown sintax
+> Manipulate files beginning with _* to add content.
 
-[Markdown Chear Sheet](https://www.markdownguide.org/cheat-sheet)
-
-> Fill the values and replace the placeholders
-
-- Cover [**_coverpage.md**]
-  - Replace the image in [**_media/icon.png**]
-  - Link the repo
-  - Link "Empezar" to the first header "**#**" in the README.md
-  - Select background color
-
-- Sidebar [**_sidebar.md**]
-  - Cascade referral link system
-
-# Enjoy ^_^
+# ENJOY ^_^
