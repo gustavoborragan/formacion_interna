@@ -1,6 +1,6 @@
 # Preamble
 
-This project is intended to provide a simple tool for creating Prefapp international training courses.
+This project is intended to provide a simple tool for creating Prefapp internal training courses.
 
 # USE
 
